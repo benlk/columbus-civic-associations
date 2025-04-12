@@ -9,14 +9,14 @@ layout: home
 
 <div class="grid-row grid-gap">
 
-<div class="tablet:grid-col-auto">
+<div class="tablet:grid-col-auto margin-bottom-1">
     <div class="usa-summary-box tablet:float-right tablet:width-card-lg" role="region" aria-labelledby="summary-box-key-information">
         <div class="usa-summary-box__body">
             <h4 class="usa-summary-box__heading" id="summary-box-key-information">
             About this list
             </h4>
             <div class="usa-summary-box__text">
-                <p>This page provides a searchable list of civici associations and similar groups in the City of Columbus, Ohio.</p>
+                <p>This page provides a searchable list of civic associations and similar groups in the City of Columbus, Ohio.</p>
                 <p>This list is sourced from the Columbus Department of Neighborhoods, and was last updated on March 28, 2025.</p>
                 <p>This website is an unofficial presentation of the data and may contain errors. For more information, or to submit corrections, see the <a href="{% link about.md %}">About page</a>.</p>
             </div>

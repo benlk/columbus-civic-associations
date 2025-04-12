@@ -1,6 +1,6 @@
 .header-decoration-image {
   width: 100%;
-  max-height: min(36vh, 20em);
+  max-height: min(20vh, 10em);
   object-fit: cover;
 }
 .header-decoration{
@@ -18,8 +18,8 @@
     background: transparent linear-gradient(
       0deg, 
       #112f4e 0%, 
-      rgba(14,38,69,0.85098) 23%, 
-      rgba(16,42,77,0.654902) 50%, 
+      rgba(14,38,69,0.85098) 13%, 
+      rgba(16,42,77,0.654902) 30%, 
       rgba(16,42,77,0) 100%) 
       0% 0% no-repeat padding-box;
   }
@@ -71,4 +71,9 @@ h2 {
 }
 .usa-nav__external span {
   @extend .usa-link--external;
+}
+@media (min-width: 64em) {
+  .usa-header--extended .usa-logo {
+    max-width: unset;
+  }
 }
