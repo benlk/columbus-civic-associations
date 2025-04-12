@@ -1,0 +1,7 @@
+_site
+.sass-cache
+static/
+assets/**/*.xcf
+.jekyll-cache
+Gemfile.lock
+_exclude/

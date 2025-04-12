@@ -1,0 +1,64 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Columbus Civic Associations
+description: 
+  "A list of civic associations known to the City of Columbus, Ohio"
+baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: '/columbus-civic-associations/'
+url: "https://benlk.github.com/columbus-civic-associations" # the base hostname & protocol for your site
+github_username:  benlk
+
+permalink: /:title/
+
+
+# GitHub information
+# This is used for adding an edit this page link to the footer
+github_info:
+  organization: benlk
+  repository: columbus-civic-associations
+  default_branch: main
+
+# Build settings
+theme: uswds-jekyll
+
+# Build settings
+markdown: kramdown
+
+# Post types
+collections:
+
+# CSS
+sass:
+  style: compressed
+  sass_dir: _sass
+  sourcemap: always
+
+# https://designsystem.digital.gov/documentation/developers/#sass-compilation-requirements
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - last 2 versions
+    - IE 11
+    - not dead
+
+# File excludes
+exclude:
+  - .sh
+  - "**/.git"
+  - .git
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - .sass-cache
+  - .jekyll-cache
+  - _exclude/
+  - cspell.json
+  - readme.md
+  - .xslx
+  - .ods
