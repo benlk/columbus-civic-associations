@@ -11,7 +11,7 @@ description:
   "A list of civic associations known to the City of Columbus, Ohio"
 baseurl: "/" # the subpath of your site, e.g. /blog
 baseurl: '/columbus-civic-associations/'
-url: "https://benlk.github.com/columbus-civic-associations" # the base hostname & protocol for your site
+url: "https://benlk.github.io" # the base hostname & protocol for your site
 github_username:  benlk
 
 permalink: /:title/
