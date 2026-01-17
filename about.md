@@ -12,7 +12,7 @@ The data on this site was last updated from a list maintained by the Department 
 
 This website is a personal hobby project by [Ben Keith](https://benlk.com/), a Columbus resident who finds the City's websites and communications inadequate for many purposes.
 
-To contribute to the development of this site, [refer to the GitHub repository](https://github.com/benlk/columbus-civic-association).
+To contribute to the development of this site, [refer to the GitHub repository](https://github.com/benlk/columbus-civic-associations).
 
 For similar projects maintained by Ben Keith, see [this list](https://benlk.github.io/).
 
